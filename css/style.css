@@ -1,0 +1,462 @@
+.top-layer{
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+.top-layer:hover{
+    color: red;
+}
+.top{
+    background-color: #1e1f29;
+    height: 50px;
+    padding-top: 15px;
+    
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+}
+.logo:hover{
+    color: white;
+}
+span{
+    color: red;
+    font-size: 50px;
+}
+.dropdown{
+    width: 160px;
+    
+}
+.form-select{
+    height: 50px;
+    border-radius: 50px 0 0 50px;
+}
+.search-button{
+    width: 160px;
+    height: 50px;
+    background-image: linear-gradient(to left,rgb(243, 46, 46) 0%, #d10024 100%);
+    border: 0;
+    border-radius: 0 50px 50px 0;
+}
+.search-bar{
+    width: 200px;
+    height: 50px;
+    border: 0;
+}
+.white-cart{
+    margin-left: 10px;
+    
+}
+.rigt-opt{
+    text-decoration: none;
+    color: white;
+}
+.search-sec{
+    background-color: #15161d;
+    border-bottom: 3px solid #d10024;
+}
+.mid-sec{
+    margin-top: 10px;
+}
+.nav-link{
+    font-size: 18px !important;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(221, 219, 219);
+    border-width: 100%;
+}
+.nav-link2{
+    font-size: 14px !important;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(221, 219, 219);
+    border-width: 100%;
+}
+
+/* huh */
+.nav-link{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .nav-link:after{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(255, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    
+  }
+  .nav-link:hover:after{ 
+    width: 100%; 
+    left: 0; 
+    
+  }
+  /* huh2 */
+  .nav-link2{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .nav-link2:after{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(255, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    
+  }
+  .nav-link2:hover:after{ 
+    width: 100%; 
+    left: 0; 
+    
+  }
+  .card{
+    overflow: hidden;
+  }
+.card-title{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    background-color: #d10024;
+    padding: 550px 500px 20px 70px;
+    transform: skewX(-45deg) translateX(-100%);
+    opacity: 0.9;
+    
+}
+.card-title2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+    
+}
+.btn-primary{
+    position: absolute;
+    top: 130px;
+    left: 65px;
+}
+.top-container{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.top-container img{
+    width: 360px;
+    height: 200px;
+    transition: all 3s ease;
+}
+.card-body .pic1{
+    width: 350px;
+    height: 175px;
+}
+.card-body .pic2{
+    width: 350px;
+    height: 175px;
+}
+.card-body .pic3{
+    width: 320px;
+    height: 175px;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #5052ea 0%, #0004ff 100%);
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+
+}
+.buy-now-button:hover{
+    padding: 10px 26px;
+    box-shadow: 0 0 20px rgb(55, 55, 221);
+}
+.top-container img:hover{
+    zoom: 102%;
+}
+.top-container{
+    margin-top: 35px;
+}
+.second-nav{
+    margin-top: 35px;
+}
+.first-carousel{
+    margin-top: 30px;
+}
+.card-car{
+    transition: all 0.3s ease;
+}
+.card-car:hover{
+    border: 2px solid #d10024;
+}
+.btn-primary{
+    position: relative;
+}
+.discount{
+    position: absolute;
+    top: 4px;
+    left: 190px;
+    font-size: 16px;
+    border: 1px solid #d10024;
+    color: #d10024;
+    padding: 2px;
+}
+.new{
+    position: absolute;
+    top: 4px;
+    left: 202px;
+    font-size: 16px;
+    background-color:  #d10024;
+    color: white;
+    padding: 4px;
+}
+.hidden{
+    display: none;
+    
+}
+.hidden .add-to-cart{
+    display: none;
+    
+}
+.card-car:hover + .hidden{
+    background-color: black;
+    height: 60px;
+    width: 260px;
+    
+
+}
+.card-car:hover + .hidden .add-to-cart{
+    display: block;
+    
+}
+
+/* button */
+.add-to-cart{
+    background-image: linear-gradient(to bottom, #5052ea 0%, #0004ff 100%);
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.add-to-cart:hover{
+    padding: 10px 26px;
+    box-shadow: 0 0 20px rgb(55, 55, 221);
+    transform: translateY(-50%);
+}
+.p-name{
+    
+    text-align: center;
+
+}
+.p-link{
+    text-decoration: none;
+    color: black;
+}
+.p-link:hover{
+    color: #d10024;
+}
+.old-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #1e1f29;
+    
+}
+.price{
+    
+    flex: 50%;
+    display: inline-block;
+    
+}
+.first-carousel{
+    margin-bottom: 100px;
+}
+/* banner */
+.col-md-3 img{
+    height: 300px;
+    
+}
+.banner-row{
+    background-color:rgb(218, 208, 208);
+    height: 350px;
+    
+}
+.timer{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .right-img{
+    padding: 20px;
+    margin-left: 30px;
+  }
+  .timer{
+    padding: 20px;
+    margin: 10px;
+    
+  }
+  .time{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #D10024e6;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+  }
+  .timer-text{
+    align-items: center;
+    padding-top: 20px;
+  }
+  .deal{
+    text-align: center;
+  }
+  .deal2{
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .shop-now-button .btn-link2{
+    text-align: center;
+  }
+  .btn-link2 .shop-now{
+    background-image: linear-gradient(to bottom, #d10023c2 0%, #d10023f9 100%);
+    color: white;
+    padding: 9px 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.btn-link2 .shop-now:hover{
+    
+    box-shadow: 0 0 20px #d10023f9;
+    
+}
+/* car 2nd */
+.second-carousel{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid grey;
+}
+.background-image{
+    
+    position: absolute;
+    opacity: 0.2;
+    
+    
+}
+.newletter-content{
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+.news-span{
+    font-weight: 600;
+    color: #15161d;
+    font-size: 40px;
+}
+.newsletter-text{
+    font-size: 40px;
+}
+.placeholder{
+    font-weight: 300;
+}
+.email-input{
+    
+        width: 230px;
+        height: 50px;
+        border: 1px solid rgb(209, 197, 197);
+        border-radius: 50px 0 0 50px;
+    
+}
+.about-section{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 92px;
+    background-color: #15161d;
+    padding: 20px;
+    border-top: 3px solid #d10024;
+}
+.col-md-3{
+    line-height: 35px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #d10024;
+}
+.foot-section{
+    background-color: #1e1f29;
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 92px;
+    text-align: center;
+    height: 30px;
+}
+.social-logo{
+    margin-top: 30px;
+    margin-left: 555px;
+}
+.social-logo .log1{
+    
+    height: 50px;
+    margin-right: 20px;
+    border: 1px solid #e4e7ed;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social-logo .log2{
+    
+    height: 50px;
+    margin-right: 20px;
+    border: 1px solid #e4e7ed;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.social-logo .log3{
+    
+    height: 50px;
+    border: 1px solid #e4e7ed;
+    padding: 10px;
+    border-radius: 5px;
+}
